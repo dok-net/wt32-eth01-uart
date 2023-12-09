@@ -1,0 +1,7 @@
+{
+    "sketch": "wt32-eth01-uart.ino",
+    "output": "build",
+    "configuration": "PartitionScheme=default,FlashMode=qio,FlashFreq=80,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "board": "espressif:esp32:wt32-eth01",
+    "port": "COM14"
+}
