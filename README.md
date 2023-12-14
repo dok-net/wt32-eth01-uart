@@ -3,7 +3,7 @@
 ## HW modification
 
 The WT32-ETH01, at least until version 1.4, doesn't reset the PHY. This can result in a hanging PHY on occasion, which cannot
-be remedied by a reset of the ESP32, but only be a full power cycle. The verified fix proposed here utilized the 50MHz oscillator-enable toggling
+be remedied by a reset of the ESP32, but only by a full power cycle. The verified fix proposed here utilized the 50MHz oscillator-enable toggling
 performed by the standard IDF implementation to the PHY reset line as well. This makes sure that resetting the ethernet library also
 completely initializes the PHY as well.
 
